@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context="com.tarren.classproject.MainActivity"
+    tools:layout_editor_absoluteY="81dp"
+    tools:layout_editor_absoluteX="0dp">
+
+    <Button
+        android:id="@+id/signIn"
+        android:layout_width="232dp"
+        android:layout_height="43dp"
+        android:background="@color/colorAccent"
+        android:text="@string/sign_in"
+        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteY="433dp" />
+
+    <TextView
+        android:id="@+id/textHoned"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:gravity="center"
+        android:textColor="@color/colorBlack"
+        android:textSize="50dp"
+        android:fontFamily="sans-serif-medium"
+        tools:layout_editor_absoluteX="119dp"
+        tools:layout_editor_absoluteY="226dp" />
+
+    <ImageView
+        android:id="@+id/imageIcon"
+        android:layout_width="213dp"
+        android:layout_height="228dp"
+        app:srcCompat="@drawable/Honed"
+        tools:layout_editor_absoluteX="86dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+</android.support.constraint.ConstraintLayout>

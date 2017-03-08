@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark">
+
+    <TextView
+        android:id="@+id/textCreateAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/create_account"
+        android:gravity="center"
+        android:textColor="@color/colorBlack"
+        android:textSize="25dp"
+        android:fontFamily="sans-serif-medium"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/buttonSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:text="@string/save"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="245dp" />
+
+    <RelativeLayout
+        android:layout_width="347dp"
+        android:layout_height="166dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="62dp">
+
+        <TextView
+            android:id="@+id/textAccountName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textAccountContact"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/textAccountContact"
+            android:layout_marginTop="24dp"
+            android:text="@string/account_name" />
+
+        <TextView
+            android:id="@+id/textAccountContact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="28dp"
+            android:layout_marginStart="28dp"
+            android:text="@string/account_contact"
+            android:layout_below="@+id/textAccountName"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            android:id="@+id/textAccountPhone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/account_phone"
+            android:layout_below="@+id/textAccountContact"
+            android:layout_alignLeft="@+id/textAccountContact"
+            android:layout_alignStart="@+id/textAccountContact"
+            android:layout_marginTop="19dp" />
+
+        <TextView
+            android:id="@+id/textAccountAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/account_address"
+            android:layout_below="@+id/textAccountPhone"
+            android:layout_alignLeft="@+id/textAccountPhone"
+            android:layout_alignStart="@+id/textAccountPhone"
+            android:layout_marginTop="20dp" />
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

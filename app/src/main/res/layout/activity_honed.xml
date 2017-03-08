@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark">
+
+    <Button
+        android:id="@+id/buttonCreateAccount"
+        android:layout_width="164dp"
+        android:layout_height="167dp"
+        android:background="@color/colorAccent"
+        android:text="@string/create_account"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="39dp" />
+
+    <Button
+        android:id="@+id/buttonViewAccount"
+        android:layout_width="163dp"
+        android:layout_height="168dp"
+        android:background="@color/colorAccent"
+        android:text="@string/view_account"
+        tools:layout_editor_absoluteX="205dp"
+        tools:layout_editor_absoluteY="39dp" />
+
+    <Button
+        android:id="@+id/buttonCreateInvoice"
+        android:layout_width="165dp"
+        android:layout_height="168dp"
+        android:background="@color/colorAccent"
+        android:text="@string/create_invoice"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="247dp" />
+
+    <Button
+        android:id="@+id/buttonViewIncoice"
+        android:layout_width="163dp"
+        android:layout_height="168dp"
+        android:background="@color/colorAccent"
+        android:text="@string/view_invoice"
+        tools:layout_editor_absoluteX="205dp"
+        tools:layout_editor_absoluteY="247dp" />
+</android.support.constraint.ConstraintLayout>
