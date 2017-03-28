@@ -1,16 +1,18 @@
 <resources>
-    <string name="app_name">Honed</string>
-    <string name="sign_in">Sign In</string>
-    <string name="create_account">Create Account</string>
-    <string name="view_account">View Accounts</string>
-    <string name="create_invoice">Create New Invoice</string>
-    <string name="view_invoice">View Invoice</string>
-    <string name="save">Save</string>
-    <string name="account_name">Account Name: </string>
-    <string name="account_contact">Account Contact: </string>
-    <string name="account_phone">Phone: </string>
-    <string name="account_address">Address: </string>
-    <string name="invoice_number">Invoice #: </string>
-    <string name="date">Date: </string>
-    <string name="price">Total Price: </string>
+<string name="app_name">Honed</string>
+<string name="sign_in">Sign In</string>
+<string name="create_account">Create Account</string>
+<string name="view_account">View Accounts</string>
+<string name="create_invoice">Create New Invoice</string>
+<string name="view_invoice">View Invoice</string>
+<string name="save">Save</string>
+<string name="account_name">Account Name: </string>
+<string name="account_contact">Account Contact: </string>
+<string name="account_phone">Phone: </string>
+<string name="account_address">Address: </string>
+<string name="invoice_number">Invoice #: </string>
+<string name="date">Date: </string>
+<string name="price">Total Price: </string>
+<string name="save_account_button">Sorry this feature is currently unavailable.</string>
+<string name="save_invoice_button">Sorry this feature is currently unavailable.</string>
 </resources>
