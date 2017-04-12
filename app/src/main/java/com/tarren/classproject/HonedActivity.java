@@ -18,6 +18,32 @@ public class HonedActivity extends AppCompatActivity {
         setContentView(R.layout.activity_honed);
     }
 
+    //onResume method
+    public void onResume() {
+        super.onResume();
+    }
+
+    //onPause method
+    public void onPause() {
+        super.onPause();
+    }
+
+    //onStop method
+    public void onStop() {
+        super.onStop();
+    }
+
+    //onDestroy method
+    public void onDestroy() {
+        super.onDestroy();
+    }
+
+    //method to save the instance state
+    public void onSaveInstanceState(Bundle saveInstanceState) {
+        //save the view hierarchy state
+        super.onSaveInstanceState(saveInstanceState);
+    }
+
     /** Method when user clicks Create Account Button */
     public void clickCreateAccount(View view) {
         Intent createAccount = new Intent(this, CreateAccount.class);

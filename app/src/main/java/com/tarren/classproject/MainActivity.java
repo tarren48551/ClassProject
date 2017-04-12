@@ -17,6 +17,32 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
+    //onResume method
+    public void onResume() {
+        super.onResume();
+    }
+
+    //onPause method
+    public void onPause() {
+        super.onPause();
+    }
+
+    //onStop method
+    public void onStop() {
+        super.onStop();
+    }
+
+    //method to save the instance state
+    public void onSaveInstanceState(Bundle saveInstanceState) {
+        //save the view hierarchy state
+        super.onSaveInstanceState(saveInstanceState);
+    }
+
+    //onDestroy method
+    public void onDestroy() {
+        super.onDestroy();
+    }
+
     /** Method when user clicks sign-in button */
     public void clickSignIn(View view) {
         Intent signIn = new Intent(this, HonedActivity.class);

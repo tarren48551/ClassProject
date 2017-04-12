@@ -1,18 +1,18 @@
 <resources>
-    <string name = "app_name"> Rectifié </ string>
-    <string name = "sign_in"> Se connecter </ string>
-    <string name = "create_account"> Créer un compte </ string>
-    <string name = "view_account"> Afficher les comptes </ string>
-    <string name = "create_invoice"> Créer une nouvelle facture </ string>
-    <string name = "view_invoice"> Afficher la facture </ string>
-    <string name = "save"> Enregistrer </ string>
-    <string name = "account_name"> Nom du compte: </ string>
-    <string name = "account_contact"> Contact du compte: </ string>
-    <string name = "account_phone"> Téléphone: </ string>
-    <string name = "account_address"> Adresse: </ string>
-    <string name = "invoice_number"> Numéro de facture: </ string>
-    <string name = "date"> Date: </ string>
-    <string name = "price"> Prix total: </ string>
-    <string name = "save_account_button"> Désolé, cette fonctionnalité est actuellement indisponible. </ string>
-    <string name = "save_invoice_button"> Désolé, cette fonctionnalité est actuellement indisponible. </ string>
+    <string name = "app_name"> Rectifié </string>
+    <string name = "sign_in"> Se connecter </string>
+    <string name = "create_account"> Créer un compte </string>
+    <string name = "view_account"> Afficher les comptes </string>
+    <string name = "create_invoice"> Créer une nouvelle facture </string>
+    <string name = "view_invoice"> Afficher la facture </string>
+    <string name = "save"> Enregistrer </string>
+    <string name = "account_name"> Nom du compte: </string>
+    <string name = "account_contact"> Contact du compte: </string>
+    <string name = "account_phone"> Téléphone: </string>
+    <string name = "account_address"> Adresse: </string>
+    <string name = "invoice_number"> Numéro de facture: </string>
+    <string name = "date"> Date: </string>
+    <string name = "price"> Prix total: </string>
+    <string name = "save_account_button"> Désolé, cette fonctionnalité est actuellement indisponible. </string>
+    <string name = "save_invoice_button"> Désolé, cette fonctionnalité est actuellement indisponible. </string>
 </resources>
